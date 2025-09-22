@@ -7,6 +7,6 @@ $username = getenv('PB_USER');
 $password = getenv('PB_PASSWORD');
 $database = getenv('PB_DATABASE');
 
- $pb=mysqli_connect($host,$username,$password,$database) or die ("ikke kontakt med database-server");
+ $paber2152=mysqli_connect($host,$username,$password,$database) or die ("ikke kontakt med database-server");
     /* tilkobling til database-serveren utført */
  ?>
