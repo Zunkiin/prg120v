@@ -5,6 +5,14 @@
 */
 ?> 
 
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrer klasse</title>
+</head>
+<body></body>
+
 <h3>Registrer klasse</h3>
 
 <form method="post" action="" id="registrerKlasseSkjema" name="registrerKlasseSkjema">
