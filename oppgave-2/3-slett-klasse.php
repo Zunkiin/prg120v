@@ -28,7 +28,7 @@ include("db-tilkobling.php");  // Kobler til database-serveren
 
       $antallRader = mysqli_num_rows($sqlResultat);  // Teller hvor mange klasser som finnes i resultatet
 
-      /* For-løkke: henter én og én rad (klasse) og skriver dem ut som <option> i listen */
+      /* For løkke: henter en og en rad (klasse) og skriver dem ut som <option> i listen */
       for ($r = 1; $r <= $antallRader; $r++) {
         $rad = mysqli_fetch_array($sqlResultat);     // Henter en rad (en klasse)
         $klassekode = $rad["klassekode"];            // Leser klassekode fra raden
